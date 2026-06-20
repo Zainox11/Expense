@@ -1,0 +1,75 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+hs_err_pid*
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+!.vscode/extensions.json
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Android related
+/android/local.properties
+/android/key.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+*.keystore
+*.jks
+
+# iOS related
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Pods/
+XcodeHeaderValueFiles.plist
+
+# macOS related
+/macos/Flutter/ephemeral/
+
+# Windows related
+/windows/flutter/ephemeral/
+
+# Linux related
+/linux/flutter/ephemeral/
+
+# Web related
+/web/flutter_bootstrap.js
+
+# Firebase related
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Local environment variables
+.env
+.env.*

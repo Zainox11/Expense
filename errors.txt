@@ -1,0 +1,292 @@
+﻿
+  error - lib\core\routing\app_router.dart:141:58 - The argument type 'Object?' can't be assigned to the parameter 
+type 'TransactionEntity?'.  - argument_type_not_assignable
+  error - lib\core\routing\app_router.dart:151:58 - The argument type 'Object?' can't be assigned to the parameter 
+type 'TransactionEntity?'.  - argument_type_not_assignable
+  error - lib\core\routing\app_router.dart:168:48 - The argument type 'Object?' can't be assigned to the parameter 
+type 'BudgetEntity?'.  - argument_type_not_assignable
+  error - lib\core\utils\extensions.dart:153:31 - A value of type 'num' can't be returned from the function 
+'clampProgress' because it has a return type of 'double'. - return_of_invalid_type
+  error - lib\data\repositories\auth_repository_impl.dart:15:7 - Missing concrete implementations of 
+'AuthRepository.signIn' and 'AuthRepository.signUp'. Try implementing the missing methods, or make the class abstract. 
+- non_abstract_class_inherits_abstract_member
+  error - lib\data\repositories\auth_repository_impl.dart:114:27 - Class 'AuthRepositoryImpl' can't define field 
+'authStateChanges' and have method 'AuthRepository.authStateChanges' with the same name. Try converting the getter to 
+a method, or renaming the field to a name that doesn't conflict. - conflicting_field_and_method
+  error - lib\data\repositories\budget_repository_impl.dart:14:7 - Missing concrete implementations of 
+'BudgetRepository.setBudget' and 'BudgetRepository.updateSpentAmount'. Try implementing the missing methods, or make 
+the class abstract. - non_abstract_class_inherits_abstract_member
+  error - lib\data\repositories\category_repository_impl.dart:16:7 - Missing concrete implementation of 
+'CategoryRepository.seedDefaultCategories'. Try implementing the missing method, or make the class abstract. - 
+non_abstract_class_inherits_abstract_member
+  error - lib\data\repositories\category_repository_impl.dart:34:32 - 'CategoryRepositoryImpl.getCategories' 
+('Future<List<CategoryEntity>> Function()') isn't a valid override of 'CategoryRepository.getCategories' 
+('Future<List<CategoryEntity>> Function({TransactionType? type})'). - invalid_override
+  error - lib\data\repositories\transaction_repository_impl.dart:17:7 - Missing concrete implementations of 
+'TransactionRepository.getTotalExpense' and 'TransactionRepository.getTotalIncome'. Try implementing the missing 
+methods, or make the class abstract. - non_abstract_class_inherits_abstract_member
+  error - lib\data\repositories\transaction_repository_impl.dart:35:35 - 'TransactionRepositoryImpl.getTransactions' 
+('Future<List<TransactionEntity>> Function(String)') isn't a valid override of 'TransactionRepository.getTransactions' 
+('Future<List<TransactionEntity>> Function(String, {DateTime? endDate, DateTime? startDate})'). - invalid_override
+  error - lib\presentation\providers\analytics_provider.dart:202:31 - Undefined name 'authStateProvider'. Try 
+correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\providers\analytics_provider.dart:216:7 - The named parameter 'startDate' isn't defined. 
+Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 
+'startDate'. - undefined_named_parameter
+  error - lib\presentation\providers\analytics_provider.dart:217:7 - The named parameter 'endDate' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'endDate'. - 
+undefined_named_parameter
+  error - lib\presentation\providers\auth_provider.dart:8:10 - The named parameter 'userBox' is required, but there's 
+no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\providers\auth_provider.dart:85:18 - The name 'FirebaseAuthException' is defined in the 
+libraries 'package:expense_tracker/data/repositories/auth_repository_impl.dart' and 
+'package:firebase_auth_platform_interface/src/firebase_auth_exception.dart (via 
+package:firebase_auth/firebase_auth.dart)'. Try using 'as prefix' for one of the import directives, or hiding the name 
+from all but one of the imports. - ambiguous_import
+  error - lib\presentation\providers\budget_provider.dart:13:31 - 1 positional argument expected by 
+'HiveBudgetDatasource.new', but 0 found. Try adding the missing argument. - not_enough_positional_arguments
+  error - lib\presentation\providers\budget_provider.dart:23:10 - The named parameter 'connectivity' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\providers\budget_provider.dart:26:5 - The named parameter 'connectivityService' isn't 
+defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 
+'connectivityService'. - undefined_named_parameter
+  error - lib\presentation\providers\category_provider.dart:13:33 - 1 positional argument expected by 
+'HiveCategoryDatasource.new', but 0 found. Try adding the missing argument. - not_enough_positional_arguments
+  error - lib\presentation\providers\category_provider.dart:23:10 - The named parameter 'connectivity' is required, 
+but there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\providers\category_provider.dart:26:5 - The named parameter 'connectivityService' isn't 
+defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 
+'connectivityService'. - undefined_named_parameter
+  error - lib\presentation\providers\category_provider.dart:149:47 - Too many positional arguments: 0 expected, but 1 
+found. Try removing the extra arguments. - extra_positional_arguments
+  error - lib\presentation\providers\category_provider.dart:155:30 - The argument type 'String' can't be assigned to 
+the parameter type 'CategoryEntity'.  - argument_type_not_assignable
+  error - lib\presentation\providers\category_provider.dart:155:39 - Too many positional arguments: 1 expected, but 2 
+found. Try removing the extra arguments. - extra_positional_arguments
+  error - lib\presentation\providers\category_provider.dart:194:37 - The argument type 'String' can't be assigned to 
+the parameter type 'CategoryEntity'.  - argument_type_not_assignable
+  error - lib\presentation\providers\category_provider.dart:194:45 - Too many positional arguments: 1 expected, but 2 
+found. Try removing the extra arguments. - extra_positional_arguments
+  error - lib\presentation\providers\category_provider.dart:206:48 - Too many positional arguments: 1 expected, but 2 
+found. Try removing the extra arguments. - extra_positional_arguments
+  error - lib\presentation\providers\transaction_provider.dart:16:36 - 1 positional argument expected by 
+'HiveTransactionDatasource.new', but 0 found. Try adding the missing argument. - not_enough_positional_arguments
+  error - lib\presentation\providers\transaction_provider.dart:28:10 - The named parameter 'connectivity' is required, 
+but there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\providers\transaction_provider.dart:31:5 - The named parameter 'connectivityService' isn't 
+defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 
+'connectivityService'. - undefined_named_parameter
+  error - lib\presentation\providers\transaction_provider.dart:109:5 - The named parameter 'startDate' isn't defined. 
+Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 
+'startDate'. - undefined_named_parameter
+  error - lib\presentation\providers\transaction_provider.dart:110:5 - The named parameter 'endDate' isn't defined. 
+Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'endDate'. 
+- undefined_named_parameter
+  error - lib\presentation\screens\analytics\analytics_screen.dart:186:46 - The named parameter 'symbol' isn't 
+defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 
+'symbol'. - undefined_named_parameter
+  error - lib\presentation\screens\budget\budget_screen.dart:210:51 - The named parameter 'symbol' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'symbol'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\budget\budget_screen.dart:220:80 - The named parameter 'symbol' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'symbol'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\budget\budget_screen.dart:221:68 - The named parameter 'symbol' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'symbol'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\budget\budget_screen.dart:320:29 - Undefined name 'TransactionType'. Try correcting 
+the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\screens\budget\budget_screen.dart:364:86 - The named parameter 'symbol' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'symbol'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\budget\budget_screen.dart:371:93 - The named parameter 'symbol' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'symbol'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\budget\budget_screen.dart:410:109 - The named parameter 'symbol' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'symbol'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\budget\budget_screen.dart:411:95 - The named parameter 'symbol' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'symbol'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\budget\set_budget_screen.dart:218:34 - Undefined name 'currencySymbolProvider'. Try 
+correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\screens\export\export_screen.dart:37:29 - Undefined name 'currentUserProvider'. Try 
+correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\screens\export\export_screen.dart:47:9 - The named parameter 'startDate' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'startDate'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\export\export_screen.dart:48:9 - The named parameter 'endDate' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'endDate'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\export\export_screen.dart:67:47 - The named parameter 'categories' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:67:47 - The named parameter 'month' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:67:47 - The named parameter 'transactions' is required, 
+but there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:67:47 - The named parameter 'year' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:68:11 - Too many positional arguments: 0 expected, but 4 
+found. Try removing the extra positional arguments, or specifying the name for named arguments. - 
+extra_positional_arguments_could_be_named
+  error - lib\presentation\screens\export\export_screen.dart:74:30 - The named parameter 'bytes' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:74:30 - The named parameter 'fileName' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:74:30 - The named parameter 'mimeType' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:75:11 - Too many positional arguments: 0 expected, but 3 
+found. Try removing the extra positional arguments, or specifying the name for named arguments. - 
+extra_positional_arguments_could_be_named
+  error - lib\presentation\screens\export\export_screen.dart:81:49 - The named parameter 'categories' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:81:49 - The named parameter 'month' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:81:49 - The named parameter 'transactions' is required, 
+but there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:81:49 - The named parameter 'year' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:82:11 - Too many positional arguments: 0 expected, but 4 
+found. Try removing the extra positional arguments, or specifying the name for named arguments. - 
+extra_positional_arguments_could_be_named
+  error - lib\presentation\screens\export\export_screen.dart:88:30 - The named parameter 'bytes' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:88:30 - The named parameter 'fileName' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:88:30 - The named parameter 'mimeType' is required, but 
+there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\export\export_screen.dart:89:11 - Too many positional arguments: 0 expected, but 3 
+found. Try removing the extra positional arguments, or specifying the name for named arguments. - 
+extra_positional_arguments_could_be_named
+  error - lib\presentation\screens\home\home_screen.dart:209:47 - The named parameter 'symbol' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'symbol'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\home\home_screen.dart:247:63 - The named parameter 'symbol' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'symbol'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\home\home_screen.dart:293:64 - The named parameter 'symbol' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'symbol'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\home\home_screen.dart:444:33 - The method 'CategoryEntity' isn't defined for the 
+type 'HomeScreen'. Try correcting the name to the name of an existing method, or defining a method named 
+'CategoryEntity'. - undefined_method
+  error - lib\presentation\screens\home\home_screen.dart:507:88 - The named parameter 'symbol' isn't defined. Try 
+correcting the name to an existing named parameter's name, or defining a named parameter with the name 'symbol'. - 
+undefined_named_parameter
+  error - lib\presentation\screens\settings\settings_screen.dart:49:27 - The named parameter 'budgetLocalDatasource' 
+is required, but there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\settings\settings_screen.dart:49:27 - The named parameter 'budgetRemoteDatasource' 
+is required, but there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\settings\settings_screen.dart:49:27 - The named parameter 'categoryLocalDatasource' 
+is required, but there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\presentation\screens\settings\settings_screen.dart:49:27 - The named parameter 
+'categoryRemoteDatasource' is required, but there's no corresponding argument. Try adding the required argument. - 
+missing_required_argument
+  error - lib\presentation\screens\settings\settings_screen.dart:49:27 - The named parameter 
+'transactionLocalDatasource' is required, but there's no corresponding argument. Try adding the required argument. - 
+missing_required_argument
+  error - lib\presentation\screens\settings\settings_screen.dart:49:27 - The named parameter 
+'transactionRemoteDatasource' is required, but there's no corresponding argument. Try adding the required argument. - 
+missing_required_argument
+  error - lib\presentation\screens\settings\settings_screen.dart:50:9 - The named parameter 
+'localTransactionDatasource' isn't defined. Try correcting the name to an existing named parameter's name, or defining 
+a named parameter with the name 'localTransactionDatasource'. - undefined_named_parameter
+  error - lib\presentation\screens\settings\settings_screen.dart:51:9 - The named parameter 
+'remoteTransactionDatasource' isn't defined. Try correcting the name to an existing named parameter's name, or 
+defining a named parameter with the name 'remoteTransactionDatasource'. - undefined_named_parameter
+  error - lib\presentation\screens\settings\settings_screen.dart:52:9 - The named parameter 'localCategoryDatasource' 
+isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the 
+name 'localCategoryDatasource'. - undefined_named_parameter
+  error - lib\presentation\screens\settings\settings_screen.dart:53:9 - The named parameter 'remoteCategoryDatasource' 
+isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the 
+name 'remoteCategoryDatasource'. - undefined_named_parameter
+  error - lib\presentation\screens\settings\settings_screen.dart:54:9 - The named parameter 'localBudgetDatasource' 
+isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the 
+name 'localBudgetDatasource'. - undefined_named_parameter
+  error - lib\presentation\screens\settings\settings_screen.dart:55:9 - The named parameter 'remoteBudgetDatasource' 
+isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the 
+name 'remoteBudgetDatasource'. - undefined_named_parameter
+  error - lib\presentation\screens\settings\settings_screen.dart:70:48 - The getter 'pushedCount' isn't defined for 
+the type 'SyncResult'. Try importing the library that defines 'pushedCount', correcting the name to the name of an 
+existing getter, or defining a getter or field named 'pushedCount'. - undefined_getter
+  error - lib\presentation\screens\settings\settings_screen.dart:70:79 - The getter 'pulledCount' isn't defined for 
+the type 'SyncResult'. Try importing the library that defines 'pulledCount', correcting the name to the name of an 
+existing getter, or defining a getter or field named 'pulledCount'. - undefined_getter
+  error - lib\presentation\screens\settings\settings_screen.dart:70:113 - The getter 'conflictCount' isn't defined for 
+the type 'SyncResult'. Try importing the library that defines 'conflictCount', correcting the name to the name of an 
+existing getter, or defining a getter or field named 'conflictCount'. - undefined_getter
+  error - lib\presentation\screens\splash\splash_screen.dart:116:60 - The getter 'backOut' isn't defined for the type 
+'Curves'. Try importing the library that defines 'backOut', correcting the name to the name of an existing getter, or 
+defining a getter or field named 'backOut'. - undefined_getter
+  error - lib\presentation\screens\transactions\add_transaction_screen.dart:137:22 - Undefined name 
+'budgetsWithSpendingProvider'. Try correcting the name to one that is defined, or defining the name. - 
+undefined_identifier
+  error - lib\presentation\screens\transactions\add_transaction_screen.dart:138:22 - Undefined name 
+'monthlyAnalyticsProvider'. Try correcting the name to one that is defined, or defining the name. - 
+undefined_identifier
+  error - lib\presentation\screens\transactions\add_transaction_screen.dart:139:22 - Undefined name 
+'expenseTrendProvider'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\screens\transactions\add_transaction_screen.dart:425:22 - Undefined name 
+'currencySymbolProvider'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\screens\transactions\transactions_screen.dart:318:27 - The method 'CategoryEntity' isn't 
+defined for the type 'TransactionsScreen'. Try correcting the name to the name of an existing method, or defining a 
+method named 'CategoryEntity'. - undefined_method
+  error - lib\presentation\screens\transactions\transactions_screen.dart:378:86 - The named parameter 'symbol' isn't 
+defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 
+'symbol'. - undefined_named_parameter
+  error - lib\presentation\widgets\charts\expense_pie_chart.dart:100:61 - The named parameter 'symbol' isn't defined. 
+Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'symbol'. - 
+undefined_named_parameter
+  error - lib\presentation\widgets\charts\trend_line_chart.dart:111:15 - The named parameter 'getTooltipItem' isn't 
+defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 
+'getTooltipItem'. - undefined_named_parameter
+  error - lib\presentation\widgets\common\loading_indicator.dart:57:26 - The argument type 'Type' can't be assigned to 
+the parameter type 'TextAlign?'.  - argument_type_not_assignable
+  error - lib\services\notification_service.dart:309:19 - The named parameter 'uiLocalNotificationDateInterpretation' 
+is required, but there's no corresponding argument. Try adding the required argument. - missing_required_argument
+  error - lib\services\sync_service.dart:4:8 - Target of URI doesn't exist: 
+'package:expense_tracker/data/datasources/local/transaction_local_datasource.dart'. Try creating the file referenced 
+by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\services\sync_service.dart:5:8 - Target of URI doesn't exist: 
+'package:expense_tracker/data/datasources/local/category_local_datasource.dart'. Try creating the file referenced by 
+the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\services\sync_service.dart:6:8 - Target of URI doesn't exist: 
+'package:expense_tracker/data/datasources/local/budget_local_datasource.dart'. Try creating the file referenced by the 
+URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\services\sync_service.dart:7:8 - Target of URI doesn't exist: 
+'package:expense_tracker/data/datasources/remote/transaction_remote_datasource.dart'. Try creating the file referenced 
+by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\services\sync_service.dart:8:8 - Target of URI doesn't exist: 
+'package:expense_tracker/data/datasources/remote/category_remote_datasource.dart'. Try creating the file referenced by 
+the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\services\sync_service.dart:9:8 - Target of URI doesn't exist: 
+'package:expense_tracker/data/datasources/remote/budget_remote_datasource.dart'. Try creating the file referenced by 
+the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\services\sync_service.dart:63:14 - Undefined class 'TransactionLocalDatasource'. Try changing the name 
+to the name of an existing class, or creating a class with the name 'TransactionLocalDatasource'. - undefined_class
+  error - lib\services\sync_service.dart:64:14 - Undefined class 'TransactionRemoteDatasource'. Try changing the name 
+to the name of an existing class, or creating a class with the name 'TransactionRemoteDatasource'. - undefined_class
+  error - lib\services\sync_service.dart:65:14 - Undefined class 'CategoryLocalDatasource'. Try changing the name to 
+the name of an existing class, or creating a class with the name 'CategoryLocalDatasource'. - undefined_class
+  error - lib\services\sync_service.dart:66:14 - Undefined class 'CategoryRemoteDatasource'. Try changing the name to 
+the name of an existing class, or creating a class with the name 'CategoryRemoteDatasource'. - undefined_class
+  error - lib\services\sync_service.dart:67:14 - Undefined class 'BudgetLocalDatasource'. Try changing the name to the 
+name of an existing class, or creating a class with the name 'BudgetLocalDatasource'. - undefined_class
+  error - lib\services\sync_service.dart:68:14 - Undefined class 'BudgetRemoteDatasource'. Try changing the name to 
+the name of an existing class, or creating a class with the name 'BudgetRemoteDatasource'. - undefined_class
+  error - lib\services\sync_service.dart:80:9 - Undefined class 'TransactionLocalDatasource'. Try changing the name to 
+the name of an existing class, or creating a class with the name 'TransactionLocalDatasource'. - undefined_class
+  error - lib\services\sync_service.dart:81:9 - Undefined class 'TransactionRemoteDatasource'. Try changing the name 
+to the name of an existing class, or creating a class with the name 'TransactionRemoteDatasource'. - undefined_class
+  error - lib\services\sync_service.dart:84:9 - Undefined class 'CategoryLocalDatasource'. Try changing the name to 
+the name of an existing class, or creating a class with the name 'CategoryLocalDatasource'. - undefined_class
+  error - lib\services\sync_service.dart:85:9 - Undefined class 'CategoryRemoteDatasource'. Try changing the name to 
+the name of an existing class, or creating a class with the name 'CategoryRemoteDatasource'. - undefined_class
+  error - lib\services\sync_service.dart:88:9 - Undefined class 'BudgetLocalDatasource'. Try changing the name to the 
+name of an existing class, or creating a class with the name 'BudgetLocalDatasource'. - undefined_class
+  error - lib\services\sync_service.dart:89:9 - Undefined class 'BudgetRemoteDatasource'. Try changing the name to the 
+name of an existing class, or creating a class with the name 'BudgetRemoteDatasource'. - undefined_class
+  error - test\widget_test.dart:16:35 - The name 'MyApp' isn't a class. Try correcting the name to match an existing 
+class. - creation_with_non_type
+
+
