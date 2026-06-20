@@ -73,3 +73,7 @@ ui-debug.log
 # Local environment variables
 .env
 .env.*
+
+# Firebase
+google-services.json
+android/app/google-services.json
